@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#757370">
 
     <ImageView
         android:id="@+id/imageViewAvatar"
@@ -28,6 +29,7 @@
         android:contentDescription="@string/textviewfood"
         android:text="@string/textviewfood"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewAvatar"
         app:layout_constraintTop_toTopOf="parent"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#757370"
     tools:context=".StartActivity">
 
     <TextView
@@ -11,6 +12,7 @@
         android:layout_width="109dp"
         android:layout_height="22dp"
         android:text="@string/TapToStart"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
